@@ -12,11 +12,16 @@ html {
     top: 1px;
 }
 
+body {
+    text-align: left;
+}
+
 h1 {
     font-family: "Helvetica Neue", Helvetica;
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 a {
@@ -57,4 +62,34 @@ a:hover {
     right: 2px;
     top: 130px;
     z-index: 110;
+}
+
+.fb-box {
+    display:block; 
+    background-color: #fff;
+    border-right: 1px solid #CED7E5;
+    border-top: 1px solid #CED7E5;
+    border-bottom: 1px solid #CED7E5;
+    height: 82px;
+}
+
+.fb-masker {
+    float: left;
+    position: relative;
+    left: -1px;
+    background-color: #fff;
+    width: 1px;
+    height: 82px;
+    border-top: 1px solid #CED7E5;
+    border-bottom: 1px solid #CED7E5;
+}
+
+.fb-image {
+    float: left;
+    position: relative;
+    top: -1px;
+}
+
+.clear {
+    clear: both;
 }
